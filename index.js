@@ -13,7 +13,7 @@ searchBtn.addEventListener("click", function () {
 
 async function allData() {
 
-    moviesContainer.innerHTML = "<p style='color: orange;'>Loading...</p>";
+    moviesContainer.innerHTML = "<p style='color: #4caf50; margin-top: 10px; '>Loading...</p>";
 
     const url = `https://www.omdbapi.com/?apikey=${api_key}&s=${input.value}`;
     try {
